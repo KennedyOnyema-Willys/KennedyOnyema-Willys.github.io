@@ -39,17 +39,16 @@
           <div class="hero-copy">
             <p class="kicker">Hello, I’m Kennedy.</p>
             <h2 class="hero-headline">
-              I build reliable systems and write code that makes tech support easier.
+              I build and study secure systems, focusing on network security, authentication, and privacy-preserving technologies.
             </h2>
             <p class="hero-text">
-              I’m a Computer Science student graduating in 2026. My interests include enterprise IT,
-              networking, and security. I like owning problems end-to-end: reproduce, diagnose, fix,
-              document, and automate what can be automated.
+              I'm a Computer Science student graduating in 2026 with a strong interest in secure systems and applied cryptography. I enjoy
+              understanding how systems fail, how attackers exploit them, and how to design defenses that are secure, practical, and scalable.
             </p>
 
             <div class="cta-row">
               <a class="btn primary" href="#contact">Get in touch</a>
-              <a class="btn ghost" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noreferrer">
+              <a class="btn ghost" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noopener noreferrer">
                 View GitHub
               </a>
             </div>
@@ -61,42 +60,19 @@
               </div>
               <div class="fact" role="listitem">
                 <span class="fact-label">Focus</span>
-                <span class="fact-value">Windows/Linux • Networking • Security</span>
+                <ul class="fact-list" aria-label="Focus areas">
+                  <li class="fact-value">Network Security</li>
+                  <li class="fact-value">Systems Security</li>
+                  <li class="fact-value">Cryptography</li>
+                </ul>
               </div>
               <div class="fact" role="listitem">
                 <span class="fact-label">Now</span>
-                <span class="fact-value">Building projects + sharpening scripting</span>
+                <span class="fact-value">Building security-focused projects and deepening network defense skills</span>
               </div>
             </div>
           </div>
 
-          <aside class="hero-card" aria-label="Site status">
-            <div class="card">
-              <div class="card-top">
-                <h3 class="card-title">Portfolio Status</h3>
-                <span class="pill">In progress</span>
-              </div>
-
-              <p class="card-text">
-                I’m actively updating this site with projects and write-ups. In the meantime, my code
-                samples are on GitHub.
-              </p>
-
-              <img
-                class="construction-img"
-                src="images/under-construction.webp"
-                alt="Under construction"
-                loading="lazy"
-              />
-
-              <div class="card-actions">
-                <a class="btn small" href="#projects">See projects</a>
-                <a class="btn small ghost" href="https://www.linkedin.com/in/kennedyonyema-willys/" target="_blank" rel="noreferrer">
-                  LinkedIn
-                </a>
-              </div>
-            </div>
-          </aside>
         </div>
       </section>
 
@@ -104,64 +80,91 @@
         <div class="container">
           <div class="section-head">
             <h2>Projects</h2>
-            <p>Selected work. I keep write-ups short and practical.</p>
+            <p>Some of my best work.</p>
           </div>
 
           <div class="grid">
             <article class="project card">
-              <h3>Cloud System Testing Framework</h3>
-              <p class="meta">Python • Reliability Testing • Metrics</p>
+              <h3>P2Verifics</h3>
+              <p class="meta">Senior Thesis • Privacy-Preserving Identity</p>
               <p>
-                Scripts that test latency/reliability for cloud services, collect results, and help
-                identify failure patterns.
+                Concept prototype for my CSCE 4999 senior thesis implementing 
+                a privacy-preserving verifiable credential system with selective 
+                disclosure and offline verification using modern cryptographic techniques.
               </p>
+
               <div class="tags">
-                <span class="tag">Python</span>
-                <span class="tag">Testing</span>
-                <span class="tag">Troubleshooting</span>
+                <span class="tag">W3C VC</span>
+                <span class="tag">BBS+</span>
+                <span class="tag">Zero-Knowledge</span>
+                <span class="tag">Digital Identity</span>
+                <span class="tag">Cryptography</span>
               </div>
+
               <div class="row">
-                <a class="link" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noreferrer">Repo</a>
-                <span class="dot" aria-hidden="true"></span>
-                <a class="link" href="#contact">Ask for details</a>
+                <a class="link"
+                  href="https://github.com/KennedyOnyema-Willys/p2verifics"
+                  target="_blank"
+                  rel="noopener noreferrer">Repository</a>
               </div>
             </article>
 
             <article class="project card">
-              <h3>Secure Identity Prototype</h3>
-              <p class="meta">Linux • Crypto Concepts • Documentation</p>
+              <h3>Project-Loqui</h3>
+              <p class="meta">Cloud Testing • Speech Systems • Reliability Analysis</p>
               <p>
-                Academic prototype exploring secure authentication concepts and system design tradeoffs.
+                Testing framework for evaluating round-trip fidelity between 
+                Text-to-Speech (TTS) and Speech-to-Text (STT) systems across 
+                multiple cloud providers (AWS, Azure, Google Cloud). 
+                Automates dataset processing, normalization, and transcript comparison 
+                to measure reliability and transformation accuracy.
               </p>
+
               <div class="tags">
-                <span class="tag">Linux</span>
-                <span class="tag">Security</span>
-                <span class="tag">Docs</span>
+                <span class="tag">Python</span>
+                <span class="tag">Cloud Testing</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Azure</span>
+                <span class="tag">Google Cloud</span>
+                <span class="tag">Software Testing</span>
               </div>
+
               <div class="row">
-                <a class="link" href="https://onyema-willys.com/" target="_blank" rel="noreferrer">Write-up (soon)</a>
-                <span class="dot" aria-hidden="true"></span>
-                <a class="link" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noreferrer">Code</a>
+                <a class="link"
+                  href="https://github.com/KennedyOnyema-Willys/Project-Loqui"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Repository
+                </a>
               </div>
             </article>
 
             <article class="project card">
-              <h3>Automation Utilities</h3>
-              <p class="meta">Scripting • Quality-of-life tools</p>
+              <h3>CybrixTools</h3>
+              <p class="meta">Python • Cybersecurity Toolkit • GUI</p>
               <p>
-                Small scripts for repeatable tasks like log parsing, validation checks, and environment setup.
+                GUI-based cybersecurity toolkit built for CSCE 3444 (Software Engineering).
+                Includes tools such as phishing detection, OSINT lookup, port scanning,
+                password breach checking, steganography detection, and HTTP header analysis.
               </p>
+
               <div class="tags">
                 <span class="tag">Python</span>
-                <span class="tag">Automation</span>
-                <span class="tag">Ops</span>
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">Security Tools</span>
+                <span class="tag">Software Engineering</span>
               </div>
+
               <div class="row">
-                <a class="link" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noreferrer">Repo</a>
-                <span class="dot" aria-hidden="true"></span>
-                <a class="link" href="#contact">Collaborate</a>
+                <a class="link"
+                  href="https://github.com/KennedyOnyema-Willys/CybrixTools"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Repository
+                </a>
               </div>
             </article>
+
           </div>
         </div>
       </section>
@@ -170,16 +173,17 @@
         <div class="container">
           <div class="section-head">
             <h2>Skills</h2>
-            <p>What I’m comfortable with and what I’m actively building.</p>
+            <p>Foundations in secure systems and networking, and what I'm deepening in cybersecurity.</p>
           </div>
 
           <div class="two-col">
             <div class="card">
               <h3>Core</h3>
               <ul class="bullets">
-                <li>Networking fundamentals: TCP/IP, DNS/DHCP concepts, Wireshark basics</li>
-                <li>Operating systems: Linux CLI, Windows environments</li>
-                <li>Scripting: Python (automation, testing, data parsing)</li>
+                <li>Networking fundamentals: TCP/IP, DNS, DHCP, subnetting, packet analysis (Wireshark)</li>
+                <li>Operating systems: Linux CLI, Windows administration basics</li>
+                <li>Security fundamentals: authentication models, least privilege, threat awareness</li>
+                <li>Scripting & automation: Python for tooling, validation, and testing</li>
                 <li>Version control: Git + GitHub workflows</li>
               </ul>
             </div>
@@ -187,10 +191,10 @@
             <div class="card">
               <h3>Working on</h3>
               <ul class="bullets">
-                <li>Enterprise support patterns: ticketing habits, root-cause write-ups</li>
-                <li>Windows administration depth (policies, troubleshooting, tooling)</li>
-                <li>Cloud fundamentals and practical deployments</li>
-                <li>Security-first configuration and documentation</li>
+                <li>Network security concepts: segmentation, firewall logic, traffic inspection</li>
+                <li>Secure system configuration and hardening practices</li>
+                <li>Applied cryptography concepts (digital signatures, credential systems)</li>
+                <li>Cloud security fundamentals and practical deployments</li>
               </ul>
             </div>
           </div>
@@ -230,17 +234,15 @@
               <div>
                 <h3>Links</h3>
                 <p>
-                  <a class="link" href="https://www.linkedin.com/in/kennedyonyema-willys/" target="_blank" rel="noreferrer">LinkedIn</a>
+                  <a class="link" href="https://www.linkedin.com/in/kennedyonyema-willys/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                   <span class="dot" aria-hidden="true"></span>
-                  <a class="link" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noreferrer">GitHub</a>
-                  <span class="dot" aria-hidden="true"></span>
-                  <a class="link" href="https://onyema-willys.com/" target="_blank" rel="noreferrer">Website</a>
+                  <a class="link" href="https://github.com/KennedyOnyema-Willys" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </p>
               </div>
             </div>
 
             <p class="fine">
-              Copyright &copy; 2024 Kennedy K. Onyema-Willys
+              Copyright &copy; 2026 Kennedy K. Onyema-Willys
             </p>
           </div>
         </div>
@@ -249,7 +251,7 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <small>&copy; 2024 Kennedy K. Onyema-Willys</small>
+        <small>&copy; 2026 Kennedy K. Onyema-Willys</small>
         <small><a class="link" href="#main">Back to top</a></small>
       </div>
     </footer>
